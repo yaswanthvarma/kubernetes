@@ -1,35 +1,43 @@
----
-# default site settings
-# configure these values for your project
-project:
-  name: "{project_name}"
-  owner: "{project_owner}"
-  repo: "{project_repo}"
-  version: "{project_version}"
+title: jekyll-rtd-theme
+lang: en
+description: GitHub-flavored docs theme for Jekyll
 
-collections:
-  api:
-    output: true
-    permalink: "/:collection/:path/"
-    title: API
-    tab-order: 1
-  examples:
-    output: true
-    permalink: "/:collection/:path/"
-    title: Examples
-    tab-order: 2
-  guides:
-    output: true
-    permalink: "/:collection/:path/"
-    title: Guides
-    tab-order: 3
+theme: null
 
-highlighter: rouge
-permalink: pretty
+nav_version: true
+edit: true
+addons_branch: true
+
+addons:
+  - github
+  - i18n
+  - plugins
+  - analytics
+
+copyright:
+  revision: true
+
+debug: true
+
+readme_index:
+  with_frontmatter: true
+
 sass:
   style: compressed
 
 plugins:
   - jemoji
-  - jekyll-remote-theme
-remote_theme: pixeldroid/programming-pages
+  - jekyll-avatar
+  - jekyll-mentions
+
+exclude:
+  - Makefile
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - requirements.txt
+  - node_modules
+  - package.json
+  - package-lock.json
+  - jekyll-rtd-theme.gemspec
