@@ -1,9 +1,7 @@
 .jekyll-metadata
-node_modules
-_site
 .sass-cache
-
-*.gem
-*.whl
+_site
+build/doc-template
 Gemfile.lock
-package-lock.json
+programming-pages_v*.zip
+*.gem
