@@ -13,7 +13,7 @@ Containers share a single host OS & its kernel with help of **container engine**
 Remember that you can only run containers that are compatible to use the kernel of the underlying host OS, which means you cannot run a Unix based container on a windows host and vice-versa.
 
 
-##difference between containers & VMs
+## difference between containers & VMs
 
 Let us compare containers with Virtual machines to understand containers better .
 
@@ -24,6 +24,7 @@ VMs use full-fledged Operating systems which  need more resources to be allocate
 
 What if we could package only  the application along with libraries that are needed for it to run  and  supply this package with the required kernel and  resources,  this is called **containerization**.
 A container treats itself as a complete OS and runs with in its resource limits set be the container engine.
+
 
 
 When compared to VMs, containers have below advantages:
