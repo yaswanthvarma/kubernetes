@@ -2,7 +2,7 @@
 sort: 2
 ---
 
-# Blog Series
+# Kubernetes Series
 
 ```
 {% raw %}{% include list.liquid all=true %}{% endraw %}
