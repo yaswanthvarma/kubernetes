@@ -6,7 +6,7 @@ A **container** is an isolated process of the application running on the Host op
 
 A **container image** is a package/template  used to create a container.
 
-![container ](https://github.com/yaswanthvarma/kubernetes/blob/gh-pages/images/container.JPG)
+![container ](https://raw.githubusercontent.com/yaswanthvarma/kubernetes/gh-pages/images/container.JPG)
 
 Containers share a single host OS & its kernel with help of **container engine**.  They cannot access the kernel directly and have to go through the container engine which accesses the kernel to get the required resources. This is the reason why the container engine can control the CPU, RAM etc that a container can use.
 
@@ -17,7 +17,7 @@ Remember that you can only run containers that are compatible to use the kernel 
 
 Let us compare containers with Virtual machines to understand containers better .
 
-![VM vs container](https://github.com/yaswanthvarma/kubernetes/blob/gh-pages/images/VMvscontainer.JPG)
+![VM vs container](https://raw.githubusercontent.com/yaswanthvarma/kubernetes/gh-pages/images/VMvscontainer.JPG)
 
 **Virtual machines** are a hardware virtualization technology that  allows us to run multiple full-fledged Operating Systems on top of a **hypervisor** which manages & allocates resources to these VMs. Better isolation and security cab be achieved by using virtual machines.
 VMs use full-fledged Operating systems which  need more resources to be allocated and  the boot up time would be comparatively high.
