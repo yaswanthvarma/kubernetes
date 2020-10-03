@@ -3,6 +3,9 @@ sort: 2
 ---
 # Kubernetes Architecture
 Kubernetes cluster follows a Master-Worker kind of architecture,  the **Master-node** hosts the **control plane** components which are responsible for managing the cluster where as the **Worker-node** hosts the actual work horses for your application.
+Please note that a cluster can have multiple Master-nodes for high availability,  the Worker-node count will generally be on a higher side as we run our workloads here.
+Kubernetes cluster can manage upto 5000 nodes.
+You can assume each node to be a machine/VM with an OS.
 
 Below diagram should hep you understand the basic structure of the Kubernetes cluster.
 
