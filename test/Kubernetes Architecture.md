@@ -37,7 +37,7 @@ It is a service in master responsible for distributing the workload. It is respo
 
 ### ETCD
 Etcd is a distributed, consistent key-value store used for configuration management, service discovery, and coordinating distributed work.
-When it comes to Kubernetes, etcd reliably stores the configuration data of the Kubernetes cluster, representing the state of the cluster (what nodes exist in the cluster, what pods should be running, which nodes they +are running on, and a whole lot more) at any given point of time.
+When it comes to Kubernetes, etcd reliably stores the configuration data of the Kubernetes cluster, representing the state of the cluster */(what nodes exist in the cluster, what pods should be running, which nodes they +are running on, and a whole lot more)\* at any given point of time.
 As all cluster data is stored in etcd, you should always have a backup plan for it. You can easily back up your etcd data using the etcdctl snapshot save command. 
 The API Server is the only Kubernetes component that connects to etcd; all the other components must go through the API Server to work with the cluster state.
 
