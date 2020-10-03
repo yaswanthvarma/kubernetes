@@ -7,7 +7,7 @@ Kubernetes cluster follows a Master-Worker kind of architecture,  the **Master-n
 Below diagram should hep you understand the basic structure of the Kubernetes cluster.
 
 
-![Kubernetes architecture ](https://github.com/yaswanthvarma/kubernetes/blob/gh-pages/images/kubernetes architecture.png)
+![Kubernetes architecture ](https://github.com/yaswanthvarma/kubernetes/blob/gh-pages/images/kubernetes%20architecture.png)
 
 
 **POD** : In Kubernetes, a POD can be defined as a fundamental worker unit that packages containers.  A pod can have multiple containers inside.
