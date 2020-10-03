@@ -1,5 +1,5 @@
 ---
-sort:2
+sort: 2
 ---
 # Kubernetes Architecture
 Kubernetes cluster follows a Master-Worker kind of architecture,  the **Master-node** hosts the **control plane** components which are responsible for managing the cluster where as the **Worker-node** hosts the actual work horses for your application.
