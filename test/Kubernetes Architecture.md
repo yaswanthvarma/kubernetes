@@ -10,7 +10,7 @@ You can assume each node to be a machine/VM with an OS.
 Below diagram should hep you understand the basic structure of the Kubernetes cluster.
 
 
-![Kubernetes architecture ](https://github.com/yaswanthvarma/kubernetes/blob/gh-pages/images/kubernetesArchitecture.JPG)
+![Kubernetes architecture ](https://raw.githubusercontent.com/yaswanthvarma/kubernetes/gh-pages/images/kubernetesArchitecture.JPG)
 
 
 **POD** : In Kubernetes, a POD can be defined as a fundamental worker unit that packages containers.  A pod can have multiple containers inside.
