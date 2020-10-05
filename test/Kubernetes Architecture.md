@@ -22,7 +22,7 @@ Below diagram should hep you understand the basic structure of the Kubernetes cl
 
 **Control-Plane components**
 ---
-<dt>API Server</dt>
+<dt>**API Server**</dt>
 
 When you interact with your Kubernetes cluster using the kubectl command-line interface, you are actually communicating with the master API Server component.
 The API Server is the main management point of the entire cluster. In short, it processes REST operations, validates them, and updates the corresponding objects in etcd.
