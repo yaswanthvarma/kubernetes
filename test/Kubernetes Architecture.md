@@ -22,13 +22,13 @@ Below diagram should hep you understand the basic structure of the Kubernetes cl
 
 **Control-Plane components**
 ---
-<dt>**API Server**</dt>
-
-When you interact with your Kubernetes cluster using the kubectl command-line interface, you are actually communicating with the master API Server component.
+<dl>
+<dt>API Server</dt>
+<dd>When you interact with your Kubernetes cluster using the kubectl command-line interface, you are actually communicating with the master API Server component.
 The API Server is the main management point of the entire cluster. In short, it processes REST operations, validates them, and updates the corresponding objects in etcd.
-The API Server is also responsible for the authentication and authorization mechanism. All API clients should be authenticated in order to interact with the API Server.
+The API Server is also responsible for the authentication and authorization mechanism. All API clients should be authenticated in order to interact with the API Server. </dd>
 
-
+<dl>
 
 **Kube-Controller or Controller-Manager**
 
