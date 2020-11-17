@@ -23,20 +23,20 @@ $ git clone https://github.com/yaswanthvarma/Kubernetes-installation.git
 '''
 You will see that the the repo is cloned to your current directory, move it to your desired location,  you will be running the vagrant file from this location.
 
-![vagrantkubernetes1.jpg ](https://raw.githubusercontent.com/yaswanthvarma/kubernetes/gh-pages/images/kubernetesArchitecture.JPG)
+![vagrantkubernetes1.jpg ](https://raw.githubusercontent.com/yaswanthvarma/kubernetes/gh-pages/images/setup/vagrant/vagrantkubernetes1.jpg)
 
 
 Execute  
 '''
 vagrant up
 '''
-![vagrantkubernetes2.jpg ](https://raw.githubusercontent.com/yaswanthvarma/kubernetes/gh-pages/images/kubernetesArchitecture.JPG)
+![vagrantkubernetes2.jpg ](https://raw.githubusercontent.com/yaswanthvarma/kubernetes/gh-pages/images/setup/vagrant/vagrantkubernetes2.jpg)
 
 
 Let the vagrant do its thing, after sometime you will see that a kubernetes cluster is running with the config given in the Vagrantfile.
 You can check the status of the machines that you just created using the vagrantfile.
 
-![vagrantkubernetes3.jpg ](https://raw.githubusercontent.com/yaswanthvarma/kubernetes/gh-pages/images/kubernetesArchitecture.JPG)
+![vagrantkubernetes3.jpg ](https://raw.githubusercontent.com/yaswanthvarma/kubernetes/gh-pages/images/setup/vagrant/vagrantkubernetes3.jpg)
 
 
 '''
@@ -44,7 +44,7 @@ vagrant ssh kmaster
 
 kubectl cluster-info
 '''
-![vagrantkubernetes4.jpg ](https://raw.githubusercontent.com/yaswanthvarma/kubernetes/gh-pages/images/kubernetesArchitecture.JPG)
+![vagrantkubernetes4.jpg ](https://raw.githubusercontent.com/yaswanthvarma/kubernetes/gh-pages/images/setup/vagrant/vagrantkubernetes4.jpg)
 
 
 
