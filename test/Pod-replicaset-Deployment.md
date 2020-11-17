@@ -1,6 +1,8 @@
 ---
 sort: 4
 ---
+#Pod-replicaset-Deployment.md
+
 # Pod
 A **pod** is a fundamental unit  in Kubernetes. A pod can encapsulate one or more containers. 
 If a pod doesn’t respond or fail, Kubernetes will destroy and create a new one . 
