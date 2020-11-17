@@ -1,7 +1,7 @@
 ---
 sort: 4
 ---
-#Pod-replicaset-Deployment.md
+# Pod-replicaset-Deployment.md
 
 # Pod
 A **pod** is a fundamental unit  in Kubernetes. A pod can encapsulate one or more containers. 
