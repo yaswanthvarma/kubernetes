@@ -17,7 +17,6 @@ You can edit the Vagrantfile if you wish to change any of the contents.
 
 Copy files from below Git repo to any selected directory on your PC.
 I have a windows machine, I use  “Git Bash” so that its easier for a Unix guy like me.
-
 ```
 $ git clone https://github.com/yaswanthvarma/Kubernetes-installation.git
 ```
@@ -38,11 +37,9 @@ You can check the status of the machines that you just created using the vagrant
 ![vagrantkubernetes3.jpg ](https://raw.githubusercontent.com/yaswanthvarma/kubernetes/gh-pages/images/setup/vagrant/vagrantkubernetes3.jpg)
 
 
-ssh to the master node
+**ssh to the master node**
 ```
 vagrant ssh kmaster
-```
-```
 kubectl cluster-info
 ```
 ![vagrantkubernetes4.jpg ](https://raw.githubusercontent.com/yaswanthvarma/kubernetes/gh-pages/images/setup/vagrant/vagrantkubernetes4.jpg)
