@@ -18,7 +18,7 @@ Kubernetes **deployments** are essentially just a wrapper around ReplicaSets. Th
 When using Deployments, you should not directly manage the ReplicaSet that is created by the Deployment. All operations that you would perform on a ReplicaSet should be performed on the Deployment instead, which then manages the process for updating the ReplicaSet. 
 
 
-![deployment ](https://raw.githubusercontent.com/yaswanthvarma/kubernetes/gh-pages/images/kubernetesArchitecture.JPG)
+![deployment ](https://raw.githubusercontent.com/yaswanthvarma/kubernetes/gh-pages/images/pod-replicaset-deployment/pods-replicaset-deployments.JPG)
 
 
 
