@@ -22,10 +22,11 @@ I have a windows machine, I use  “Git Bash” so that its easier for a Unix gu
 $ git clone https://github.com/yaswanthvarma/Kubernetes-installation.git
 ```
 You will see that the the repo is cloned to your current directory, move it to your desired location,  you will be running the vagrant file from this location.
+
 ![vagrantkubernetes1.jpg ](https://raw.githubusercontent.com/yaswanthvarma/kubernetes/gh-pages/images/setup/vagrant/vagrantkubernetes1.jpg)
 
 
-Execute  
+Execute below
 ```
 vagrant up
 ```
