@@ -44,6 +44,7 @@ kubectl cluster-info
 ```
 ![vagrantkubernetes4.jpg ](https://raw.githubusercontent.com/yaswanthvarma/kubernetes/gh-pages/images/setup/vagrant/vagrantkubernetes4.jpg)
 
+The master node "kmaster" will have the required setup to execute kubectl, you can play around with the commands to get used to Kubernetes.
 
 
 
