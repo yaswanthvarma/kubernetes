@@ -7,4 +7,4 @@ This repo/blog is written to assist anyone who would like to get started with Ku
 **Happy Learning**
 
 
->This page is setup using   **Jekyll** https://github.com/rundocs/jekyll-rtd-theme , thanks to all the contributers that built & made this an open source.
+>This page is setup using  [Jekyll-rtd-theme](https://github.com/rundocs/jekyll-rtd-theme) , thanks to all the contributers that built & made this an open source.
