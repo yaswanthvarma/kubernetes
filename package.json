@@ -7,7 +7,7 @@
         "@babel/core": "^7.11.5",
         "@babel/preset-env": "^7.11.5",
         "@primer/css": "^17.5.2",
-        "anchor-js": "^4.2.2",
+        "anchor-js": "^5.0.0",
         "font-awesome": "^4.7.0",
         "html5shiv": "^3.7.3",
         "jquery": "^3.5.1",
